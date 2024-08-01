@@ -11,7 +11,6 @@ export default function Navigation() {
     <NavigationContainer>
       <Stack.Navigator screenOptions={{
         headerShown:false,
-        
       }}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Restaurant" component={Restaurant} />
